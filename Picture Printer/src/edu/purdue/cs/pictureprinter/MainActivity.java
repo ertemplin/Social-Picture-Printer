@@ -35,6 +35,17 @@ public class MainActivity extends Activity {
 			}
         	
         });
+        
+        Button googlePlusButton = (Button) findViewById(R.id.buttonGoogle);
+        googlePlusButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// Do Google + stuff.
+				goToGooglePlusPage();
+			}
+        	
+        });
     }
 
     @Override
@@ -46,6 +57,11 @@ public class MainActivity extends Activity {
     public void goToFacebookPage() {
     	Intent launchFacebookPictureViewerIntent = new Intent(this, FacebookPictureViewer.class);
     	startActivity(launchFacebookPictureViewerIntent);
+    }
+    
+    public void goToGooglePlusPage() {
+    	Intent launchGooglePlusPageIntent = new Intent(this, GooglePlus.class);
+    	startActivity(launchGooglePlusPageIntent);
     }
     
 }

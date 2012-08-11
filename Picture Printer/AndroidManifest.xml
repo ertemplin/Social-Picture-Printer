@@ -25,11 +25,16 @@
         <activity
             android:name=".FacebookPictureViewer"
             android:label="@string/title_activity_facebook_picture_viewer" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.purdue.cs.pictureprinter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GooglePlus"
+            android:label="@string/title_activity_google_plus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.purdue.cs.pictureprinter.MainActivity" />
         </activity>
     </application>
 

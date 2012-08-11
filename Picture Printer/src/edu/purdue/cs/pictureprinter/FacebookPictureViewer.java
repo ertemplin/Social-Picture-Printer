@@ -181,8 +181,6 @@ public class FacebookPictureViewer extends Activity {
     	
     	t.start();
 
-
-
     }
 
     
