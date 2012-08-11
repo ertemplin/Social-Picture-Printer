@@ -169,7 +169,7 @@ public class FacebookPictureViewer extends Activity {
 
 						FacebookPicture pics[] =  new FacebookPicture[facebookPictures.size()];
 						pics = facebookPictures.toArray(new FacebookPicture[facebookPictures.size()]);
-						gridView.setAdapter(new ImageAdapter(thisActivity, pics));
+						gridView.setAdapter(new FacebookImageAdapter(thisActivity, pics));
 						dialog.dismiss();
 					}
 		    		

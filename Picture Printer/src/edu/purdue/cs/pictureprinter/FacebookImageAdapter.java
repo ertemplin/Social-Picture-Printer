@@ -8,13 +8,13 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class ImageAdapter extends BaseAdapter {
+public class FacebookImageAdapter extends BaseAdapter {
 
 	private Context mContext;
 	private int imageCount;
 	private FacebookPicture fbPics[];
 	
-	public ImageAdapter(Context c, FacebookPicture fbPics[]) {
+	public FacebookImageAdapter(Context c, FacebookPicture fbPics[]) {
 		mContext = c;
 		imageCount = fbPics.length;
 		this.fbPics = fbPics;
