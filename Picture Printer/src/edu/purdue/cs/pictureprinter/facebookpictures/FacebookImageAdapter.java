@@ -1,4 +1,4 @@
-package edu.purdue.cs.pictureprinter;
+package edu.purdue.cs.pictureprinter.facebookpictures;
 
 import android.content.Context;
 import android.graphics.Bitmap;

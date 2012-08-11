@@ -27,6 +27,9 @@ import com.facebook.android.Facebook;
 import com.facebook.android.Facebook.DialogListener;
 import com.facebook.android.FacebookError;
 
+import edu.purdue.cs.pictureprinter.facebookpictures.FacebookImageAdapter;
+import edu.purdue.cs.pictureprinter.facebookpictures.FacebookPicture;
+
 public class FacebookPictureViewer extends Activity {
 
 	public final static String FACEBOOK_APP_ID = "127866960690796";
